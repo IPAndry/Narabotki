@@ -63,12 +63,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Back.cs" />
-    <Compile Include="Assets\Scripts\BackSettings.cs" />
-    <Compile Include="Assets\Scripts\Exit.cs" />
-    <Compile Include="Assets\Scripts\Load.cs" />
-    <Compile Include="Assets\Scripts\No.cs" />
-    <Compile Include="Assets\Scripts\OnHover.cs" />
+    <Compile Include="Assets\Scripts\Game\SceneController.cs" />
+    <Compile Include="Assets\Scripts\Menu\Back.cs" />
+    <Compile Include="Assets\Scripts\Menu\BackSettings.cs" />
+    <Compile Include="Assets\Scripts\Menu\Exit.cs" />
+    <Compile Include="Assets\Scripts\Menu\Load.cs" />
+    <Compile Include="Assets\Scripts\Menu\No.cs" />
+    <Compile Include="Assets\Scripts\Menu\OnHover.cs" />
+    <Compile Include="Assets\Scripts\Menu\Settings.cs" />
+    <Compile Include="Assets\Scripts\Menu\SettingsWindow.cs" />
+    <Compile Include="Assets\Scripts\Menu\StartGame.cs" />
+    <Compile Include="Assets\Scripts\Menu\Startin.cs" />
+    <Compile Include="Assets\Scripts\Menu\UIController.cs" />
+    <Compile Include="Assets\Scripts\Menu\Yes.cs" />
     <Compile Include="Assets\Scripts\project 3\Character.cs" />
     <Compile Include="Assets\Scripts\project 3\CharacterStars.cs" />
     <Compile Include="Assets\Scripts\project 3\Enemy.cs" />
@@ -78,13 +85,8 @@
     <Compile Include="Assets\Scripts\project 3\NoWin.cs" />
     <Compile Include="Assets\Scripts\project 3\Star.cs" />
     <Compile Include="Assets\Scripts\project 4\PersGone.cs" />
-    <Compile Include="Assets\Scripts\Settings.cs" />
-    <Compile Include="Assets\Scripts\SettingsWindow.cs" />
     <Compile Include="Assets\Scripts\Sounds.cs" />
-    <Compile Include="Assets\Scripts\StartGame.cs" />
-    <Compile Include="Assets\Scripts\Startin.cs" />
     <Compile Include="Assets\Scripts\ToMenu.cs" />
-    <Compile Include="Assets\Scripts\Yes.cs" />
     <Compile Include="Assets\Video.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Bonart/Documents/GitHub/KrestiNulli/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
