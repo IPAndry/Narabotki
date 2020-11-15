@@ -74,19 +74,8 @@
     <Compile Include="Assets\Scripts\Game\NoWin.cs" />
     <Compile Include="Assets\Scripts\Game\SceneController.cs" />
     <Compile Include="Assets\Scripts\Game\Star.cs" />
-    <Compile Include="Assets\Scripts\Menu\Back.cs" />
-    <Compile Include="Assets\Scripts\Menu\BackSettings.cs" />
     <Compile Include="Assets\Scripts\Menu\ButtonController.cs" />
-    <Compile Include="Assets\Scripts\Menu\Exit.cs" />
-    <Compile Include="Assets\Scripts\Menu\Load.cs" />
-    <Compile Include="Assets\Scripts\Menu\No.cs" />
-    <Compile Include="Assets\Scripts\Menu\OnHover.cs" />
-    <Compile Include="Assets\Scripts\Menu\Settings.cs" />
-    <Compile Include="Assets\Scripts\Menu\SettingsWindow.cs" />
-    <Compile Include="Assets\Scripts\Menu\StartGame.cs" />
     <Compile Include="Assets\Scripts\Menu\Startin.cs" />
-    <Compile Include="Assets\Scripts\Menu\UIController.cs" />
-    <Compile Include="Assets\Scripts\Menu\Yes.cs" />
     <Compile Include="Assets\Scripts\Mobile\PersGone.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Bonart/Documents/GitHub/KrestiNulli/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

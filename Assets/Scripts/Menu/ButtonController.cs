@@ -28,22 +28,28 @@ public class ButtonController : MonoBehaviour
         window.SetActive(false);
     }
 
+    public void OnOpen(GameObject window)
+    {
+        window.SetActive(true);
+    }
+
     public void OnDown()
     {
         audioSource.PlayOneShot(onClick);
-
-        print("Click");
     }
 
     public void OnEnter()
     {
         audioSource.PlayOneShot(onHover);
-
-        print("Hover");
     }
 
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    public void HideButton()
+    {
+
     }
 }
