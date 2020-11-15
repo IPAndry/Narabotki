@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Rainy Pray (Menu).unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/Scary Scene (forMenu).unity
     guid: 75e01bfa34272d041b2ded83bc164727
   - enabled: 1
-    path: Assets/Scenes/New Scene.unity
+    path: Assets/Scenes/Cube Game (2D).unity
     guid: 5f69cbd0c6776eb459951934f5d4f05f
   - enabled: 1
-    path: Assets/Scenes/Game/End.unity
+    path: Assets/Scenes/End.unity
     guid: 79b01b1d462926f4fbd6472f57f64347
   m_configObjects: {}

@@ -63,7 +63,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Dummy Scene\Sounds.cs" />
+    <Compile Include="Assets\Scripts\Dummy Scene\ToMenu.cs" />
+    <Compile Include="Assets\Scripts\Game\Character.cs" />
+    <Compile Include="Assets\Scripts\Game\CharacterStars.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Game\Floor.cs" />
+    <Compile Include="Assets\Scripts\Game\FollowCamera.cs" />
+    <Compile Include="Assets\Scripts\Game\Music.cs" />
+    <Compile Include="Assets\Scripts\Game\NoWin.cs" />
     <Compile Include="Assets\Scripts\Game\SceneController.cs" />
+    <Compile Include="Assets\Scripts\Game\Star.cs" />
     <Compile Include="Assets\Scripts\Menu\Back.cs" />
     <Compile Include="Assets\Scripts\Menu\BackSettings.cs" />
     <Compile Include="Assets\Scripts\Menu\Exit.cs" />
@@ -76,18 +86,7 @@
     <Compile Include="Assets\Scripts\Menu\Startin.cs" />
     <Compile Include="Assets\Scripts\Menu\UIController.cs" />
     <Compile Include="Assets\Scripts\Menu\Yes.cs" />
-    <Compile Include="Assets\Scripts\project 3\Character.cs" />
-    <Compile Include="Assets\Scripts\project 3\CharacterStars.cs" />
-    <Compile Include="Assets\Scripts\project 3\Enemy.cs" />
-    <Compile Include="Assets\Scripts\project 3\Floor.cs" />
-    <Compile Include="Assets\Scripts\project 3\FollowCamera.cs" />
-    <Compile Include="Assets\Scripts\project 3\Music.cs" />
-    <Compile Include="Assets\Scripts\project 3\NoWin.cs" />
-    <Compile Include="Assets\Scripts\project 3\Star.cs" />
-    <Compile Include="Assets\Scripts\project 4\PersGone.cs" />
-    <Compile Include="Assets\Scripts\Sounds.cs" />
-    <Compile Include="Assets\Scripts\ToMenu.cs" />
-    <Compile Include="Assets\Video.cs" />
+    <Compile Include="Assets\Scripts\Mobile\PersGone.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Bonart/Documents/GitHub/KrestiNulli/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
