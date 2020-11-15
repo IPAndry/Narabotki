@@ -11,6 +11,8 @@ public class ButtonController : MonoBehaviour
 
     [SerializeField] private GameObject window;
 
+    //[SerializeField] private
+
     // Start is called before the first frame update
     void Start()
     {

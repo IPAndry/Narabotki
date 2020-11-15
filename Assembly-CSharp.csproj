@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Game\NoWin.cs" />
     <Compile Include="Assets\Scripts\Game\SceneController.cs" />
     <Compile Include="Assets\Scripts\Game\Star.cs" />
+    <Compile Include="Assets\Scripts\Menu\BackgroundMusic.cs" />
     <Compile Include="Assets\Scripts\Menu\ButtonController.cs" />
     <Compile Include="Assets\Scripts\Menu\Startin.cs" />
     <Compile Include="Assets\Scripts\Mobile\PersGone.cs" />
