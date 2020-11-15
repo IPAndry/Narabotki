@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Game\Star.cs" />
     <Compile Include="Assets\Scripts\Menu\Back.cs" />
     <Compile Include="Assets\Scripts\Menu\BackSettings.cs" />
+    <Compile Include="Assets\Scripts\Menu\ButtonController.cs" />
     <Compile Include="Assets\Scripts\Menu\Exit.cs" />
     <Compile Include="Assets\Scripts\Menu\Load.cs" />
     <Compile Include="Assets\Scripts\Menu\No.cs" />
