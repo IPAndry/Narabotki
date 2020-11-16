@@ -1,22 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Back
-    - BackSettings
-    - Exit
-    - Load
-    - No
-    - OnHover
-    - Settings
-    - SettingsWindow
-    - StartGame
-    - Startin
-    - ToMenu
-    - Yes
+    - ButtonController
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -24,58 +22,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/Game.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 9324}
-    - Class: 114
-      Script: {instanceID: 9326}
-    - Class: 114
-      Script: {instanceID: 9332}
-    - Class: 114
-      Script: {instanceID: 9338}
-    - Class: 114
-      Script: {instanceID: 9346}
-    - Class: 114
-      Script: {instanceID: 9382}
-    - Class: 114
-      Script: {instanceID: 9384}
-    - Class: 114
-      Script: {instanceID: 10354}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Menu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -101,41 +48,23 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9242}
-    - Class: 114
-      Script: {instanceID: 9324}
-    - Class: 114
       Script: {instanceID: 9326}
     - Class: 114
-      Script: {instanceID: 9332}
+      Script: {instanceID: 9328}
     - Class: 114
-      Script: {instanceID: 9338}
+      Script: {instanceID: 9334}
     - Class: 114
-      Script: {instanceID: 9346}
+      Script: {instanceID: 9336}
     - Class: 114
-      Script: {instanceID: 9382}
+      Script: {instanceID: 9340}
+    - Class: 114
+      Script: {instanceID: 9348}
     - Class: 114
       Script: {instanceID: 9384}
     - Class: 114
-      Script: {instanceID: 9758}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9774}
-    - Class: 114
-      Script: {instanceID: 9912}
-    - Class: 114
-      Script: {instanceID: 9960}
-    - Class: 114
-      Script: {instanceID: 10150}
-    - Class: 114
-      Script: {instanceID: 10214}
-    - Class: 114
-      Script: {instanceID: 10418}
-    - Class: 114
-      Script: {instanceID: 10514}
-    - Class: 114
-      Script: {instanceID: 10534}
-    - Class: 114
-      Script: {instanceID: 23000}
+      Script: {instanceID: 38720}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -163,6 +92,12 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
+      Hash: ab89bdc350d739fda244c0af60452e55
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Star
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -173,12 +108,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 32733975b81bdee65241974382348139
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SettingsWindow
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -643,22 +572,22 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
-      Hash: 34f97fd02c502098bbf40d7bd075a249
+      Hash: 83e769eee07fc231384c812eedbb8224
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: StartGame
-  - hash:
-      serializedVersion: 2
-      Hash: f2c36975d4fc74f616710f450631fd76
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OnHover
+    className: FollowCamera
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: 2a52be701c42bd6e7336013e29dd5915
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Music
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -685,10 +614,10 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: 913e95a779eca9c71ac2b77445e01943
+      Hash: 96f061cb5cddf15130e9af4500205564
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Settings
+    className: PersGone
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -697,10 +626,10 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 913e95a779eca9c71ac2b77445e01943
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Back
+    className: Floor
   - hash:
       serializedVersion: 2
       Hash: 3f8d7b92a6be3c715e55d5cfa7cc8384
@@ -725,12 +654,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Video
   - hash:
       serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
@@ -769,22 +692,16 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: f813cdbf93d4f70327c7e73550414c13
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: No
-  - hash:
-      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 32733975b81bdee65241974382348139
+      Hash: bcf30522b70a56ff3ed8283ef3836122
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: BackSettings
+    className: Character
   - hash:
       serializedVersion: 2
       Hash: ee0cef6caaac8ae485bfa82f000f0f7b
@@ -814,7 +731,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Yes
+    className: NoWin
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -827,12 +744,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
-  - hash:
-      serializedVersion: 2
-      Hash: f813cdbf93d4f70327c7e73550414c13
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Exit
   - hash:
       serializedVersion: 2
       Hash: 5372ed2ce39229b1ac910757999a8be2
@@ -853,6 +764,18 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
+      Hash: 32324e573344bb3f0f4f498217c11797
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterStars
+  - hash:
+      serializedVersion: 2
+      Hash: aeabf5514f742eb82474e25f1609fe98
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Enemy
+  - hash:
+      serializedVersion: 2
       Hash: 8649814970b42d345b89944b862453cc
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -871,12 +794,23 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 4398d145c0a156ba68a4e058667da2f7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Load
+    className: SceneController
+  - hash:
+      serializedVersion: 2
+      Hash: 598ffd6b62f6346426e336315b697382
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonController
+  - hash:
+      serializedVersion: 2
+      Hash: a1fdf4e933d52807c50c4d8866c75e43
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BackgroundMusic
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  - Assets/Scenes/Game.unity
-  playerPath: C:/Users/Bonart/Desktop/Game/KrestiNulli.exe
+  - Assets/Scenes/Menu.unity
+  playerPath: C:/Users/Bonart/Desktop/UnityGame/KrestiNulli.exe
