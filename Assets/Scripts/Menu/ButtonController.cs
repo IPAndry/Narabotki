@@ -9,10 +9,6 @@ public class ButtonController : MonoBehaviour
     [SerializeField] private AudioClip onClick;
     [SerializeField] private AudioClip onHover;
 
-    [SerializeField] private GameObject window;
-
-    //[SerializeField] private
-
     // Start is called before the first frame update
     void Start()
     {
@@ -25,22 +21,22 @@ public class ButtonController : MonoBehaviour
         
     }
 
-    public void OnClose(GameObject window)
+    public void HideElement(GameObject window)
     {
         window.SetActive(false);
     }
 
-    public void OnOpen(GameObject window)
+    public void ShowElenent(GameObject window)
     {
         window.SetActive(true);
     }
 
-    public void OnDown()
+    public void PlaySoundOnDown()
     {
         audioSource.PlayOneShot(onClick);
     }
 
-    public void OnEnter()
+    public void PlaySoundOnEnter()
     {
         audioSource.PlayOneShot(onHover);
     }
@@ -48,10 +44,5 @@ public class ButtonController : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
-    }
-
-    public void HideButton()
-    {
-
     }
 }
