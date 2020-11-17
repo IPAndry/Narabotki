@@ -5,10 +5,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -64,7 +62,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 38720}
+      Script: {instanceID: 10120}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -126,6 +124,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a1fdf4e933d52807c50c4d8866c75e43
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BackgroundMusic
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -560,6 +564,12 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 4398d145c0a156ba68a4e058667da2f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneController
+  - hash:
+      serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -654,6 +664,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 598ffd6b62f6346426e336315b697382
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonController
   - hash:
       serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
@@ -792,24 +808,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 4398d145c0a156ba68a4e058667da2f7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SceneController
-  - hash:
-      serializedVersion: 2
-      Hash: 598ffd6b62f6346426e336315b697382
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonController
-  - hash:
-      serializedVersion: 2
-      Hash: a1fdf4e933d52807c50c4d8866c75e43
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BackgroundMusic
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity

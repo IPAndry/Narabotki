@@ -9,10 +9,12 @@ public class ButtonController : MonoBehaviour
     [SerializeField] private AudioClip onClick;
     [SerializeField] private AudioClip onHover;
 
+    //[SerializeField] private GameObject startin;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        //startin.SetActive(true);
     }
 
     // Update is called once per frame

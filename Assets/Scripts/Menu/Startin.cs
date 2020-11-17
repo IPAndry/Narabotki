@@ -4,17 +4,25 @@ using UnityEngine;
 
 public class Startin : MonoBehaviour
 {
-    [SerializeField] GameObject Starting;
+    [SerializeField] private GameObject starting;
+    public Animation animation;
 
     // Start is called before the first frame update
     void Start()
     {
-        Starting.SetActive(true);
+        starting.SetActive(true);
+        StartCoroutine(AnimationEnd());
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    IEnumerator AnimationEnd()
+    {
+        //yield return new WaitForSeconds(animation.normalizedTime = 1.0f);
+        print("f");
     }
 }
